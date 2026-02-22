@@ -1,0 +1,14 @@
+backend:
+  name: git-gateway
+  branch: main
+
+collections:
+  - name: "menu"
+    label: "Menu"
+    files:
+      - label: "Menu Data"
+        name: "menu"
+        file: "data/menu.json"
+        format: "json"
+        fields:
+          - { label: "Categories", name: "categories", widget: "list" }
