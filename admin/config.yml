@@ -4,6 +4,7 @@ backend:
   branch: main
   base_url: https://github-oauth.barrafleet.workers.dev
   auth_endpoint: auth
+  api_root: https://api.github.com
 
 media_folder: "uploads"
 public_folder: "/uploads"
