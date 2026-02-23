@@ -8,9 +8,6 @@ backend:
 media_folder: "data/uploads"
 public_folder: "/data/uploads"
 
-media_library:
-  name: uploadcare
-
 collections:
   - name: "site"
     label: "Site Settings"
